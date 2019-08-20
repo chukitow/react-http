@@ -1,0 +1,19 @@
+.users-list {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.selected-user {
+  height: 100vh;
+}
+
+.users-list .user-item {
+  cursor: pointer;
+}
+
+.users-list .user-item:hover {
+  z-index: 2;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
