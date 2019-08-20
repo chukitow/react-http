@@ -28,7 +28,7 @@ const UsersList = ({
       <div className="col-9">
         {
           selectedUser &&
-          <div className="d-flex h-100 align-items-center justify-content-center">
+          <div className="d-flex h-100 align-items-center justify-content-center user-info">
             <img className="rounded-circle" src={selectedUser.picture.medium} alt="Card image cap"/>
             <h2 className="card-title ml-2">{selectedUser.name.title} {selectedUser.name.first} {selectedUser.name.last}</h2>
           </div>
